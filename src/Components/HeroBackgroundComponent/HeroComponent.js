@@ -8,7 +8,7 @@ const HeroComponent = ({ ImageSrc, Heading, Desc }) => {
     return (
         <div className='hero'>
             <div className='mask'>
-                <img className='intro-img' src={ImageSrc} alt="Intro Image Here"></img>
+                <img className='intro-img' src={ImageSrc} alt="Intro Pic Here"></img>
             </div>
             <div className='content'>
                 <div>
