@@ -11,6 +11,10 @@ body {
   background-color: black;
 }
 
+body::-webkit-scrollbar{
+  display: none;
+}
+
 h1,
 h4,
 p,
