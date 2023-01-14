@@ -1,5 +1,5 @@
 import React from 'react'
-import ProjectCard from '../ProjectCard'
+import ProjectCard from '../ProjectCard/ProjectCard'
 import classes from './HeroComponent.module.css'
 
 

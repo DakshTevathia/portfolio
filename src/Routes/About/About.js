@@ -1,8 +1,7 @@
 import React from 'react'
-import Navbar from '../../Components/Navbar'
-import Footer from '../../Components/Footer'
+import Navbar from '../../Components/Navbar/Navbar'
+import Footer from '../../Components/Footer/Footer'
 import AboutContent from './AboutContent'
-import Project from '../Projects/Project'
 
 const About = () => {
   return (
