@@ -28,6 +28,11 @@
     font-weight: 5000;
 }
 
+.header h1:hover,
+.header .navMenu li a:hover {
+    color: rgb(197, 197, 197);
+}
+
 .hamburger {
     display: none;
 }
