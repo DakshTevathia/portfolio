@@ -97,7 +97,6 @@
         grid-template-columns: 1fr 1fr;
     }
 
-    .ImageDiv {}
 
     .ImageDiv img {
         max-width: fit-content;
