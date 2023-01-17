@@ -1,13 +1,19 @@
 import classes from './ContactContent.module.css'
 import React from 'react'
 
-const ProjectsContent = ({ heading, desc }) => {
+const ProjectsContent = () => {
+    const submitClicked = () => {
+        alert('Please be patient,Yet to give data to an API');
+    }
     return (
         <div className={classes.hero_img_projects}>
-            <div className={classes.heading}>
-                <h1>{heading}</h1>
-                <p>{desc}</p>
-            </div>
+            <form>
+                <input type="text" placeholder='Name' title='name'></input>
+                <input type="email" placeholder='Email' title='name'></input>
+                <input type="text" placeholder='Subject' title='subject'></input>
+                <textarea rows='6' placeholder='Message Goes Here'></textarea>
+                <button onClick={submitClicked}>Submit</button>
+            </form>
         </div>
     )
 }
