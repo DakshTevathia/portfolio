@@ -1,10 +1,14 @@
-import .resume_background {
+.resume_background {
     width: 100%;
     background: rgba(0, 0, 0, 0.5);
     color: black;
 }
 
-.resume_background::after {
+.contentDiv{
+    margin-top: 4rem;
+}
+
+.resume_background::before {
     content: '';
     background: url("../../Assets/Resume_Background.jpg");
     position: fixed;
@@ -16,3 +20,16 @@ import .resume_background {
     left: 0;
     z-index: -1;
 }
+
+.footerPositioning {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.navbarPostioning{
+    width: 100%;
+    position: absolute;
+    top: 0px;
+}
+

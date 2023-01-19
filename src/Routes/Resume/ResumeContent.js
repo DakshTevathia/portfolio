@@ -3,8 +3,10 @@ import classes from './ResumeContent.module.css';
 
 const ResumeContent = () => {
     return (
-        <div className={classes.resume_background}>
-            Resume is Here
+        <div>
+            <div className={classes.contentDiv}>
+                Resume is Here
+            </div>
         </div>
     )
 }
