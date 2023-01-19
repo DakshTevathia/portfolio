@@ -1,4 +1,4 @@
-.hero_img_projects {
+.hero_img_content {
     width: 100%;
     background: rgba(0, 0, 0, 0.5);
     color: black;
@@ -6,7 +6,7 @@
 
 }
 
-.hero_img_projects::before {
+.hero_img_content::before {
     content: '';
     background: url("../../Assets/contact-img.jpg");
     position: absolute;

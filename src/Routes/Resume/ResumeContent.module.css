@@ -1,0 +1,18 @@
+import .resume_background {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: black;
+}
+
+.resume_background::after {
+    content: '';
+    background: url("../../Assets/Resume_Background.jpg");
+    position: fixed;
+    background-size: cover;
+    background-position: center top;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}

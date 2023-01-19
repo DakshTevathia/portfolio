@@ -6,7 +6,7 @@ const ProjectsContent = () => {
         alert('Please be patient,Yet to give data to an API');
     }
     return (
-        <div className={classes.hero_img_projects}>
+        <div className={classes.hero_img_content}>
             <form>
                 <input type="text" placeholder='Name' title='name'></input>
                 <input type="email" placeholder='Email' title='name'></input>

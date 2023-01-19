@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div>
       <Navbar />
-      <AboutContent heading='About' desc='this is about content' > </AboutContent>
+      <AboutContent/>
       <Footer />
     </div >
   )

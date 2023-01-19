@@ -24,7 +24,7 @@
     justify-content: space-between;
 }
 
-@media screen and (max-width:1250px) {
+@media screen and (max-width:1150px) {
 
     .singleProjectContainer {
         background-color: rgb(0 0 0 / 70%);
@@ -73,7 +73,7 @@
 }
 
 
-@media screen and (min-width:1250px) {
+@media screen and (min-width:1150px) {
 
     .singleProjectContainer {
         background: #000000ad;
