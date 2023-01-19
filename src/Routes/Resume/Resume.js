@@ -1,6 +1,5 @@
 import React from 'react'
 import Navbar from '../../Components/Navbar/Navbar'
-import Footer from '../../Components/Footer/Footer'
 import ResumeContent from './ResumeContent'
 import classes from './ResumeContent.module.css'
 
@@ -11,9 +10,9 @@ const Resume = () => {
                 <Navbar />
             </div>
             <ResumeContent />
-            <div className={classes.footerPositioning}>
+            {/* <div className={classes.footerPositioning}>
                 <Footer />
-            </div>
+            </div> */}
         </div>
     )
 }
