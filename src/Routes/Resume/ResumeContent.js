@@ -72,7 +72,7 @@ const ResumeContent = () => {
               <div className={classes.item}>Dog </div>
               <div className={classes.item}>Music</div>
               <div className={classes.item}>Athletics/Sports</div>
-              <div className={classes.item}>Online-Media</div>
+              <div className={classes.item}>Online-Media/Content</div>
             </div>
           </div>
         </div>
