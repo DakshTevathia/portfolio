@@ -1,98 +1,98 @@
 .hero_img_content {
-    width: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    color: black;
-    height: 100vh;
-
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  color: black;
+  height: 100vh;
 }
 
 .hero_img_content::before {
-    content: '';
-    background: url("../../Assets/contact-img.jpg");
-    position: absolute;
-    background-size: cover;
-    background-position: center top;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: -1;
+  content: "";
+  background: url("../../Assets/ContactPage.jpg");
+  position: absolute;
+  background-size: cover;
+  background-position: center top;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  /* bottom: 400px; */
+  left: 0;
+  z-index: -1;
 }
 
 .heading {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    padding: 3rem 1rem;
-    height: 100%;
-    width: 100%;
-    margin: auto;
-    max-width: 50rem;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 1rem;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  max-width: 50rem;
+  justify-content: center;
 }
 
 form input {
-    margin-bottom: 1rem;
-    padding: 0.5rem;
-    color: white;
-    background-color: rgb(255, 255, 255, 0.2);
-    border: 0px;
-    outline: none;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  color: white;
+  background-color: rgb(255, 255, 255, 0.2);
+  border: 0px;
+  outline: none;
 }
 
 input:focus,
 textarea:focus {
-    border: 2px solid white;
+  border: 2px solid white;
 }
 
 ::placeholder {
-    color: white;
+  color: white;
 }
 
 form textarea {
-    margin-bottom: 1rem;
-    padding: 0.5rem;
-    color: white;
-    background-color: rgb(255, 255, 255, 0.2);
-    border: 0px;
-    outline: none;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  color: white;
+  background-color: rgb(255, 255, 255, 0.2);
+  border: 0px;
+  outline: none;
 }
 
 .formContainer {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 form button {
-    padding: 12px 32px;
-    font-size: 1rem;
-    text-transform: uppercase;
-    background: rgb(248, 217, 15);
-    color: #222;
-    font-weight: 600;
-    cursor: pointer;
-    outline: none;
-    border: 2px solid #222;
-    width: 8rem;
-    margin: 0 auto;
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: rgb(248, 217, 15);
+  color: #222;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  border: 2px solid #222;
+  width: 8rem;
+  margin: 0 auto;
 }
 
 form button:hover {
-    background: rgb(255, 255, 255, 0.2);
-    color: white;
-    transition: 0.3s;
-    outline: none;
-    border: 2px solid white;
+  background: rgb(255, 255, 255, 0.2);
+  color: white;
+  transition: 0.3s;
+  outline: none;
+  border: 2px solid white;
 }

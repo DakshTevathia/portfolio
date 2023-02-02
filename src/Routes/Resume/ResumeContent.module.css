@@ -1,9 +1,3 @@
-.resume_background {
-  /* width: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    color: black; */
-}
-
 .contentDiv {
   margin-top: 5rem;
 }
@@ -50,27 +44,6 @@
   grid-row: 1/-1;
   grid-column: 1/4;
 }
-/* 
-.education {
-    display: flex;
-    flex-direction: column;
-    justify-self: center;
-    align-items: center;
-    grid-column-start: 4;
-    grid-column-end: 5;
-    color: white;
-
-}
-
-.skills {
-    display: flex;
-    flex-direction: column;
-    justify-self: center;
-    align-items: center;
-    grid-column-start: 4;
-    grid-column-end: 5;
-    color: white;
-} */
 
 .languages,
 .skills,
@@ -149,4 +122,26 @@
   background-color: black;
   opacity: 80%;
   padding: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .resumeGrid {
+    display: flex;
+    flex-direction: column;
+  }
+  .containerJobExp {
+    order: 1;
+  }
+  .skills,
+  .education,
+  .interests,
+  .languages {
+    order: 2;
+  }
+
+  .languages h2,
+  .interests h2,
+  .skills h2 {
+    margin-bottom: 10px;
+  }
 }

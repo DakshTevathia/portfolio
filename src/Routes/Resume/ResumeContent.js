@@ -9,13 +9,17 @@ const ResumeContent = () => {
         <div className={classes.resumeGrid}>
           {/* <div className={classes.workExp}> */}
           <WorkExpCard
-            title="Associate Software Developer"
-            company="Intellisoft Technologies"
-            time=" 09/2021 - 08/2022, Noida,UttarPradesh"
-            desc={`(Service based company working towards making Ideas into Reality)
-              Updated old code bases to modern development standards, improving functionality.
-               Actively worked in an agile software development environment which utilized the Scrum process.
-                Designed and implemented a web application portal in ReactJS and other React libraries that help to collect, manipulate and visualize data & documents related to mines  across the globe.`}
+            title="Software Developer"
+            company="NowFlow Technologies Pvt Limited"
+            time="08/2022 - Present, Bengaluru, Karnataka"
+            desc=" (Developing Popin Product to be
+                        the largest video shopping network in the world) Designed intuitive
+                        graphical user interfaces to improve user experience. Created the full
+                        shoppable videos interface for the Popin product, Also created the full
+                        dashboard for shoppable video in React JS. Learnt PHP, Laravel for
+                        backend processes and integrated the dashboard for shoppable videos
+                        using the same. Offered experience with React, Laravel in the
+                        organization."
           />
           <div className={classes.skills}>
             <h2>Skills</h2>
@@ -29,18 +33,16 @@ const ResumeContent = () => {
               <div className={classes.item}>C++</div>
             </div>
           </div>
+
           <WorkExpCard
-            title="Software Developer"
-            company="NowFlow Technologies Pvt Limited"
-            time="08/2022 - Present, Bengaluru, Karnataka"
-            desc=" (Developing Popin Product to be
-                        the largest video shopping network in the world) Designed intuitive
-                        graphical user interfaces to improve user experience. Created the full
-                        shoppable videos interface for the Popin product, Also created the full
-                        dashboard for shoppable video in React JS. Learnt PHP, Laravel for
-                        backend processes and integrated the dashboard for shoppable videos
-                        using the same. Offered experience with React, Laravel in the
-                        organization."
+            id="IntellisoftTechnologies"
+            title="Associate Software Developer"
+            company="Intellisoft Technologies"
+            time=" 09/2021 - 08/2022, Noida,UttarPradesh"
+            desc={`(Service based company working towards making Ideas into Reality)
+              Updated old code bases to modern development standards, improving functionality.
+               Actively worked in an agile software development environment which utilized the Scrum process.
+                Designed and implemented a web application portal in ReactJS and other React libraries that help to collect, manipulate and visualize data & documents related to mines  across the globe.`}
           />
           {/* </div> */}
 
