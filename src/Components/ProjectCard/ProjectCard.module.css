@@ -99,7 +99,7 @@
 
 
     .ImageDiv img {
-        max-width: fit-content;
+        max-width: 900px;
     }
 
     .ContentDiv p {
