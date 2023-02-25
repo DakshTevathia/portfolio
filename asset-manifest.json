@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.4ce17b21.css",
+    "main.js": "/portfolio/static/js/main.a355eab2.js",
+    "static/js/787.1abd7d29.chunk.js": "/portfolio/static/js/787.1abd7d29.chunk.js",
+    "static/media/Resume_Background.jpg": "/portfolio/static/media/Resume_Background.a3b5af826995f7361b4f.jpg",
+    "static/media/about-img2.jpg": "/portfolio/static/media/about-img2.9f81043e0b857a8fd0d6.jpg",
+    "static/media/ContactPage.jpg": "/portfolio/static/media/ContactPage.d59878068f9924f32380.jpg",
+    "static/media/MediaMonks_img.png": "/portfolio/static/media/MediaMonks_img.d895caaefcc72e4e7b71.png",
+    "static/media/R&M_img.png": "/portfolio/static/media/R&M_img.d543014ff04e3ee82d2b.png",
+    "static/media/Ecommerce.png": "/portfolio/static/media/Ecommerce.e065f0bbaf1854d562f3.png",
+    "static/media/intro-bg.jpg": "/portfolio/static/media/intro-bg.cf2364827d8b8a98642e.jpg",
+    "static/media/fitness_img.png": "/portfolio/static/media/fitness_img.2b9b33916403371007cd.png",
+    "index.html": "/portfolio/index.html",
+    "main.4ce17b21.css.map": "/portfolio/static/css/main.4ce17b21.css.map",
+    "main.a355eab2.js.map": "/portfolio/static/js/main.a355eab2.js.map",
+    "787.1abd7d29.chunk.js.map": "/portfolio/static/js/787.1abd7d29.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ce17b21.css",
+    "static/js/main.a355eab2.js"
+  ]
+}
